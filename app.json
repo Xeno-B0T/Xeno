@@ -24,18 +24,33 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "†hê~Lêɠêɳ̃dẞøY 🇮🇳",
+      "value": "†hê~Lêɠêɳ̃dẞøY",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 🇮🇳",
+      "value": "Lêɠêɳ̃dẞø† is Online",
       "required": false
     },
     "ABUSE": {
       "description": "ON or OFF",
-      "value": "OFF",
-      "required" :false
+      "value": "ON",
+      "required" :true
+    },
+    "ASSISTANT": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
+    },
+    "SPAM": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
+    },
+    "EXTRA_PLIGIN": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
     },
     "YOUR_GROUP": {
       "description": "Set Ur Group Username",
