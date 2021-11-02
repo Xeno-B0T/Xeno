@@ -47,7 +47,7 @@
       "value": "ON",
       "required" :true
     },
-    "EXTRA_PLIGIN": {
+    "EXTRA_PLUGIN": {
       "description": "ON or OFF",
       "value": "ON",
       "required" :true
