@@ -24,7 +24,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "†hê~Lêɠêɳ̃dẞøY",
+      "value": "Lêɠêɳ̃dẞøY",
       "required": false
     },
     "ALIVE_MSG": {
@@ -59,7 +59,7 @@
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Group Username",
-      "value": "@Its_LegendBot",
+      "value": "@Official_LegendBot",
       "required": false
     },
     "BOY_OR_GIRL": {
@@ -183,7 +183,7 @@
     },
     "EMOJI_IN_HELP2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "💫",
+      "value": "🔥",
       "required": false
     },
     "PM_DATA": {
