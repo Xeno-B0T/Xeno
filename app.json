@@ -13,185 +13,57 @@
   "website": "https://github.com/LEGENDS-OP/LEGENDBOT/",
   "success_url": "https://t.me/Legend_Userbot",
   "env": {
-    "ENV": {
-      "description": "Set this to ANYTHING will enable heroku.",
-      "value": "ANYTHING"
-    },
-    "TMP_DOWNLOAD_DIRECTORY": {
-      "description": "Where downloaded files will go.",
-      "value": "./userbot/DOWNLOADS/",
-      "required": false
-    },
     "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "Lêɠêɳ̃dẞøY",
-      "required": false
-    },
-    "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† is Online",
-      "required": false
-    },
-    "ABUSE": {
-      "description": "ON or OFF",
-      "value": "ON",
-      "required" :true
-    },
-    "ASSISTANT": {
-      "description": "ON or OFF",
-      "value": "ON",
-      "required" :true
-    },
-    "SPAM": {
-      "description": "ON or OFF",
-      "value": "ON",
-      "required" :true
-    },
-    "EXTRA_PLUGIN": {
-      "description": "ON or OFF",
-      "value": "ON",
-      "required" :true
-    },
-    "YOUR_GROUP": {
-      "description": "Set Ur Group Username",
-      "value": "@Legend_Userbot",
-      "required": false
-    },
-    "YOUR_CHANNEL": {
-      "description": "Set Ur Group Username",
-      "value": "@Official_LegendBot",
-      "required": false
-    },
-    "BOY_OR_GIRL": {
-      "description": "Set If U are Boy Or Girl",
-      "value": "BOY",
-      "required": false
-    },
-    "AWAKE_PIC": {
-      "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
-      "value": "",
-      "required": false
-    },
-    "OP_PIC": {
-      "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "",
-      "required": false
-    },
-    "ALIVE_PIC": {
-      "description": "Put here any telegraph media link for alive pic in .alive Or .legend command.",
-      "value": "",
-      "required": false
-    },
-    "BIO_MSG": {
-      "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍 ϐєϲαυѕє ι αм υѕєя οƒ ✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎ @Legend_Userbot",
-      "required": true
-    },
-    "PM_PIC": {
-      "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "",
-      "required": false
-    },
-    "PM_MSG": {
-      "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
-      "required": false
-    },
-    "MAX_FLOOD_IN_PM": {
-      "description": "Now U Can Set Custom Flood In DM / PM by default it is 5",
-      "value": "5",
-      "required": true
-    },
-    "LOGGER_ID": {
-      "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
-      "value": "",
-      "required": true
+      "description": "give your name",
+      "value": ""
     },
     "APP_ID": {
-      "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
-    "SUDO_USERS": {
-      "description": "Enter your friends user id to to give him bot full access",
-      "value": "",
-      "required": false
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
     },
-    "SUDO_COMMAND_HAND_LER": {
-      "description": "Please enter sudo user command handler",
-      "value": ",",
-      "required": false
+    "STRING_SESSION": {
+      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "value": ""
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
+      "value": ""
     },
     "COMMAND_HAND_LER": {
-      "description": "U can Change Ur command Handler By Default it is (.)",
+      "description": "Set this one with only one the symbol to use it before your command to run like . , ' `",
       "value": ".",
-      "required": true
-      },
-    "API_HASH": {
-      "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
-      "value": ""
+      "required": false
     },
-    "PLUGIN_CHANNEL": {
-      "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
-      "value": ""
-    }, 
-    "LEGEND_STRING": {
-      "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/LEGENDBOT#main.py ",
-      "value": ""
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING",
+      "required": false
     },
     "HEROKU_API_KEY": {
-      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "description": "Required for updating the bot and other stuff get it from https://dashboard.heroku.com/account",
       "value": "",
-      "required": true
+      "required": false
     },
     "HEROKU_APP_NAME": {
-      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "description": "YOUR app name ",
       "value": "",
-      "required": true
-    },
-    "BOT_TOKEN": {
-      "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
-      "value": ""
-    },
-    "CHROME_BIN": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.apt/usr/bin/google-chrome",
       "required": false
     },
-    "CHROME_DRIVER": {
-      "description": "For Carbon.py. Leave as it is. ",
-      "value": "/app/.chromedriver/bin/chromedriver",
+    "TZ": {
+      "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
+      "value": "Asia/Kolkata",
       "required": false
     },
-    "BOT_USERNAME": {
-      "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
-      "value": ""
-    },
-    "NO_OF_BUTTONS": {
-      "description": " Set The Amount Of Buttons Displayed In legend Command default 7",
-      "value": "7",
-      "required": true
-    },
-    "NO_OF_COLUMNS": {
-      "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
-      "value": "2",
-      "required": true
-    },
-    "EMOJI_IN_HELP1": {
-      "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "⚜",
-      "required": true
-    },
-    "EMOJI_IN_HELP2": {
-      "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "🔥",
+    "UPSTREAM_REPO": {
+      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
+      "value": "badcat",
       "required": false
-    },
-    "PM_DATA": {
-      "description": "Type DISABLE if you want to disable pm protection... ",
-      "value": "ENABLE",
-      "required": true
     }
-  },
+  },   
   "addons": [
     {
       "plan": "heroku-postgresql",
