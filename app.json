@@ -6,11 +6,12 @@
     "telegram",
     "userbot",
     "plugin",
+    "legendbot",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGENDS-OP/LEGENDBOT/",
-  "website": "https://github.com/LEGENDS-OP/LEGENDBOT/",
+  "repository": "https://github.com/LEGEND-OS/LEGENDBOT/",
+  "website": "https://github.com/LEGEND-OS/LEGENDBOT/",
   "success_url": "https://t.me/Legend_Userbot",
   "env": {
     "ENV": {
@@ -24,18 +25,33 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "†hê~Lêɠêɳ̃dẞøY 🇮🇳",
+      "value": "Lêɠêɳ̃dẞøY",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† 𝐈𝐬 𝐀𝐥𝐢𝐯𝐞 🇮🇳",
+      "value": "Lêɠêɳ̃dẞø† 𝐈𝐬 Online",
       "required": false
     },
     "ABUSE": {
       "description": "ON or OFF",
-      "value": "OFF",
-      "required" :false
+      "value": "ON",
+      "required" :true
+    },
+    "EXTRA_PLUGIN": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
+    },
+    "SPAM": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
+    },
+    "ASSISTANT": {
+      "description": "ON or OFF",
+      "value": "ON",
+      "required" :true
     },
     "YOUR_GROUP": {
       "description": "Set Ur Group Username",
