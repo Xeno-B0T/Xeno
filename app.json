@@ -60,12 +60,12 @@
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Group Username",
-      "value": "@Its_LegendBot",
+      "value": "@Official_LegendBot",
       "required": false
     },
     "BOY_OR_GIRL": {
       "description": "Set If U are Boy Or Girl",
-      "value": "BOY",
+      "value": "Boy",
       "required": false
     },
     "AWAKE_PIC": {
@@ -184,7 +184,7 @@
     },
     "EMOJI_IN_HELP2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "💫",
+      "value": "⚜",
       "required": false
     },
     "PM_DATA": {
