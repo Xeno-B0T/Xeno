@@ -5,7 +5,7 @@
 [![LEGENDBOT](https://telegra.ph/file/2dd82644aa7f19518fe60.jpg)](https://github.com/LEGENDS-OP/LEGENDUSERBOT)
 
 <h6 align="center">
-  <b>⚡ Powered By Lêɠêɳ̃dẞø† ⚡</b>
+  <b>⚡ Lêɠêɳ̃dẞø† Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon⚡</b>
 </h6>
 
 <p align="center">
