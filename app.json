@@ -29,23 +29,23 @@
       "required": false
     },
     "ABUSE": {
-      "description": "ON or OFF",
-      "value": "ON",
+      "description": " Set ON or OFF",
+      "value": "",
       "required" :true
     },
     "EXTRA_PLUGIN": {
-      "description": "ON or OFF",
-      "value": "ON",
+      "description": "Set ON or OFF",
+      "value": "",
       "required" :true
     },
     "SPAM": {
-      "description": "ON or OFF",
-      "value": "ON",
+      "description": "Set ON or OFF",
+      "value": "",
       "required" :true
     },
     "ASSISTANT": {
-      "description": "ON or OFF",
-      "value": "ON",
+      "description": "Set ON or OFF",
+      "value": "",
       "required" :true
     },
     "YOUR_GROUP": {
@@ -54,12 +54,12 @@
       "required": false
     },
     "YOUR_CHANNEL": {
-      "description": "Set Ur Group Username",
+      "description": "Set Ur Channel Username",
       "value": "@Official_LegendBot",
       "required": false
     },
     "BOY_OR_GIRL": {
-      "description": "Set If U are Boy Or Girl",
+      "description": "Set Boy Or Girl",
       "value": "Boy",
       "required": false
     },
