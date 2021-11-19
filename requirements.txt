@@ -105,7 +105,7 @@ spotdl
 sqlalchemy
 telegraph
 twitter_scraper
-telethon==1.19.0
+git+https://github.com/LEGEND-OS/Telethon
 tgcrypto
 tswift
 html-telegraph-poster
