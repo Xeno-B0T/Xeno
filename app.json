@@ -73,14 +73,24 @@
       "value": "",
       "required": false
     },
+    "PING_PIC": {
+      "description": "Put here any telegraph media link for PING pic in .ping command.",
+      "value": "",
+      "required": false
+    },
     "ALIVE_PIC": {
-      "description": "Put here any telegraph media link for alive pic in .alive Or .legend command.",
+      "description": "Put here any telegraph media link for alive pic in .alive.",
+      "value": "",
+      "required": false
+    },
+    "ALIVE_EMOJI": {
+      "description": "Put here any emoji. Which Will be Show When U Do .alive.",
       "value": "",
       "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍 ϐєϲαυѕє ι αм υѕєя οƒ ✞︎t͛ẞ̸ 𝖑𝖊ɠêɳ̃dẞø✞︎ @Legend_Userbot",
+      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
       "required": true
     },
     "PM_PIC": {
@@ -164,12 +174,12 @@
     },
     "EMOJI_IN_HELP1": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "⚜",
-      "required": true
+      "value": "",
+      "required": false
     },
     "EMOJI_IN_HELP2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "⚜",
+      "value": "",
       "required": false
     },
     "PM_DATA": {
