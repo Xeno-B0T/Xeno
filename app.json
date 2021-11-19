@@ -25,7 +25,7 @@
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† 𝐈𝐬 Online",
+      "value": "Lêɠêɳ̃dẞø† is Online",
       "required": false
     },
     "ABUSE": {
