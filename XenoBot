@@ -3,19 +3,19 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $LEGEND_REPO == "LEGENDBOT" ]]
+    if [[ $XENO_REPO == "XENOBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $LEGEND_REPO == "LEGENDBOT" ]]
+    elif [[ $XENO_REPO == "XENOBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $LEGEND_REPO =~ $regex ]]
+    elif [[ $XENO_REPO =~ $regex ]]
     then
-        if [[ $LEGEND_REPO_BRANCH ]]
+        if [[ $XENO_REPO_BRANCH ]]
         then
-            echo "${LEGEND_REPO}/archive/${LEGEND_REPO_BRANCH}.zip"
+            echo "${XENO_REPO}/archive/${XENO_REPO_BRANCH}.zip"
         else
-            echo "${LEGEND_REPO}/archive/master.zip"
+            echo "${XENO_REPO}/archive/master.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
