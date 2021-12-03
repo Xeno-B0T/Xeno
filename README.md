@@ -48,8 +48,8 @@
 
 </details>
 
-  <summary> • Rɪᴊᴜʟ Sʜᴀʀᴍᴀ • </summary>
-<h2 align="center"> <a href="https://github.com/XENO-B0T">Rɪᴊᴜʟ Sʜᴀʀᴍᴀ</a></h2>
+  <summary> • ★彡[Rɪᴊᴜʟ.]彡★ • </summary>
+<h2 align="center"> <a href="https://github.com/XENO-B0T">☢★彡[Rɪᴊᴜʟ]彡★☢</a></h2>
 
 </details>
 
