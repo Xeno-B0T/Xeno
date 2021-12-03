@@ -1,5 +1,5 @@
 <h1 align="center">
-<b> 『 𝒳𝑒𝓃𝑜𝐵𝑜𝓉 』🇮🇳 </b>
+<b> 『 Xeno UsᴇʀBᴏᴛ 』🇮🇳 </b>
 </h1>
 
 [![Xenobot](https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg)](https://github.com/XENO-B0T/Xeno-Userbot)
@@ -38,7 +38,7 @@
 - [![Telegram Channel](https://img.shields.io/badge/Telegram-Channel-brightgreen)](https://t.me/XenoSupport)
 
       
- ### Creadits
+ ### Credits
       
       
 <details>
@@ -48,6 +48,10 @@
 
 </details>
 
+  <summary> • Rɪᴊᴜʟ Sʜᴀʀᴍᴀ • </summary>
+<h2 align="center"> <a href="https://github.com/XENO-B0T">Rɪᴊᴜʟ Sʜᴀʀᴍᴀ</a></h2>
+
+</details>
 
 ----------
 
