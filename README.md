@@ -103,7 +103,7 @@
 
 ![](https://www.gnu.org/graphics/gplv3-or-later.png)
 
-LEGEND-OS
+XENO-B0T
 
 Poject [Xeno-Userbot](https://github.com/XENO-B0T/Xeno-Userbot) is free software: you can redistribute it and/or modify
 
