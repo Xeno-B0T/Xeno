@@ -1,212 +1,423 @@
 {
-  "name": "𝒳𝑒𝓃𝑜𝐵𝑜𝓉",
-  "description": "Tнє ßєѕτ υѕєяϐοτ мα∂є ϐγ Lêɠêɳ̃dẞøY. Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/d17467283e73c884834a5.jpg",
+
+  "name": "Xeno UsᴇʀBᴏᴛ",
+
+  "description": ". The smoothest telegram userbot made to make telegram easier.🇮🇳 ",
+
+  "logo": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
   "keywords": [
+
     "telegram",
+
     "userbot",
+
     "plugin",
-    "legendbot",
+
+    "xenobot",
+
     "modular",
+
     "productivity"
+
   ],
-  "repository": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "website": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "success_url": "https://t.me/Legend_Userbot",
+
+  "repository": "https://github.com/XENO-B0T/Xeno-Userbot/",
+
+  "website": "https://github.com/XENO-B0T/Xeno-Userbot/",
+
+  "success_url": "https://t.me/XenoSupport",
+
   "env": {
+
     "ENV": {
+
       "description": "Set this to ANYTHING will enable heroku.",
+
       "value": "ANYTHING"
+
     },
-    "ALIVE_NAME": {
-      "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "Lêɠêɳ̃dẞøY",
+
+    "aliveNAME": {
+
+      "description": "Fill your full name. By default it is Xeno Bᴏʏ ",
+
+      "value": "Xeno Bᴏʏ",
+
       "required": false
+
     },
-    "ALIVE_MSG": {
-      "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† is Online",
+
+    "aliveTEXT": {
+
+      "description": "Set custom alive message when typing .alive command.",
+
+      "value": "Xeno UsᴇʀBᴏᴛ Is Aʟɪᴠᴇ",
+
       "required": false
+
     },
-    "ABUSE": {
+
+    "aBUSE": {
+
       "description": " Set ON or OFF",
-      "value": "",
+
+      "value": "ON",
+
       "required" :true
+
     },
-    "EXTRA_PLUGIN": {
+
+    "extraPLUGINS": {
+
       "description": "Set ON or OFF",
-      "value": "",
+
+      "value": "ON",
+
       "required" :true
+
     },
-    "SPAM": {
+
+    "xenoSPAM": {
+
       "description": "Set ON or OFF",
-      "value": "",
+
+      "value": "ON",
+
       "required" :true
+
     },
-    "ASSISTANT": {
+
+    "xenoASSISTANT": {
+
       "description": "Set ON or OFF",
-      "value": "",
+
+      "value": "ON",
+
       "required" :true
+
     },
-    "YOUR_GROUP": {
-      "description": "Set Ur Group Username",
-      "value": "@Legend_Userbot",
+
+    "myGROUP: {
+
+      "description": "Set your group username",
+
+      "value": "@XenoChats",
+
       "required": false
+
     },
-    "YOUR_CHANNEL": {
-      "description": "Set Ur Channel Username",
-      "value": "@Official_LegendBot",
+
+    "myCHANNEL": {
+
+      "description": "Set your channel username",
+
+      "value": "@XenoSupport",
+
       "required": false
+
     },
-    "BOY_OR_GIRL": {
+
+    "boyORgirl": {
+
       "description": "Set Boy Or Girl",
-      "value": "Boy",
-      "required": false
-    },
-    "AWAKE_PIC": {
-      "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
+
       "value": "",
-      "required": false
+
+      "required": true
+
     },
-    "OP_PIC": {
-      "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "",
+
+    "awakePIC": {
+
+      "description": "Put here any telegraph media link for awake pic in .awake command.",
+
+      "value": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
       "required": false
+
     },
-    "PING_PIC": {
+
+    "helpPIC": {
+
+      "description": "Put here any telegraph media link for Help pic .help command.",
+
+      "value": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
+      "required": false
+
+    },
+
+    "pingPIC": {
+
       "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "",
+
+      "value": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
       "required": false
+
     },
-    "ALIVE_PIC": {
+
+    "alivePIC": {
+
       "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "",
+
+      "value": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
       "required": false
+
     },
+
     "ALIVE_EMOJI": {
+
       "description": "Put here any emoji. Which Will be Show When U Do .alive.",
+
       "value": "",
+
       "required": false
+
     },
+
     "BIO_MSG": {
+
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
-      "required": true
-    },
-    "PM_PIC": {
-      "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "",
+
+      "value": "Xeno UsᴇʀBᴏᴛ Is Oᴘ",
+
       "required": false
+
     },
-    "PM_MSG": {
+
+    "pmpermitPIC": {
+
+      "description": "Put here any telegraph media link for custom pmpermit pic.",
+
+      "value": "https://te.legra.ph/file/de7bda5eeb448d89f101e.jpg",
+
+      "required": false
+
+    },
+
+    "pmpermitTEXT": {
+
       "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
+
+      "value": "Hello sir/miss my master's inbox is highly protected by Xeno UsᴇʀBᴏᴛ.",
+
       "required": false
+
     },
-    "MAX_FLOOD_IN_PM": {
-      "description": "Now U Can Set Custom Flood In DM / PM by default it is 5",
+
+    "pmpermitFLOOD": {
+
+      "description": "Now you can set custom flood in PM by default it is 5",
+
       "value": "5",
+
       "required": true
+
     },
-    "LOGGER_ID": {
+
+    "loggerID": {
+
       "description": "Create a private channel. And get it's id from @missrose_bot and paste here. Value should start with -100",
+
       "value": "",
+
       "required": true
+
     },
-    "APP_ID": {
+
+    "apiID": {
+
       "description": "Get this value from my.telegram.org! Putting Others Value may result In Account Ban.",
+
       "value": ""
+
     },
-    "SUDO_USERS": {
+
+    "sudoACCESS": {
+
       "description": "Enter your friends user id to to give him bot full access",
+
       "value": "",
+
       "required": false
+
     },
-    "SUDO_COMMAND_HAND_LER": {
+
+    "sudoHANDLER": {
+
       "description": "Please enter sudo user command handler",
-      "value": ",",
+
+      "value": "*",
+
       "required": false
+
     },
-    "COMMAND_HAND_LER": {
-      "description": "U can Change Ur command Handler By Default it is (.)",
+
+    "commandHANDLER": {
+
+      "description": "You can change your command handler by default it is (.)",
+
       "value": ".",
+
       "required": true
+
       },
-    "API_HASH": {
+
+    "apiHASH": {
+
       "description": "Get this value from my.telegram.org! Putting Others Value May result In Account Ban.",
+
       "value": ""
+
     },
-    "PLUGIN_CHANNEL": {
+
+    "pluginCHANNEL": {
+
       "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
+
       "value": ""
+
     }, 
-    "LEGEND_STRING": {
-      "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/LEGENDBOT#main.py ",
+
+    "xenoSTRING": {
+
+      "description": "Get this value by starting @SessionGeneratorBot. ",
+
       "value": ""
+
     },
-    "HEROKU_API_KEY": {
+
+    "herokuAPI": {
+
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+
       "value": "",
+
       "required": true
+
     },
-    "HEROKU_APP_NAME": {
+
+    "herokuAPPname": {
+
       "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+
       "value": "",
+
       "required": true
+
     },
-    "BOT_TOKEN": {
+
+    "botTOKEN": {
+
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
+
       "value": ""
+
     },
-    "BOT_USERNAME": {
+
+    "botUSERNAME": {
+
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and copy the username of your bot.",
+
       "value": ""
+
     },
-    "NO_OF_BUTTONS": {
-      "description": " Set The Amount Of Buttons Displayed In legend Command default 7",
+
+    "helpBUTTONS": {
+
+      "description": " Set The Amount Of Buttons Displayed In help Command default 7",
+
       "value": "7",
+
       "required": true
+
     },
-    "NO_OF_COLUMNS": {
+
+    "helpCOLUMNS": {
+
       "description": "Set The Amount Of Rows You Want To Displayed In legend Command default 2",
+
       "value": "2",
+
       "required": true
+
     },
-    "EMOJI_IN_HELP1": {
+
+    "help1EMOJI": {
+
       "description": "Set The emojies You Want to Add In Help Command!!",
+
       "value": "",
+
       "required": false
+
     },
-    "EMOJI_IN_HELP2": {
+
+    "help2EMOJI": {
+
       "description": "Set The emojies You Want to Add In Help Command!!",
+
       "value": "",
+
       "required": false
+
     },
-    "PM_DATA": {
+
+    "pmPERMIT": {
+
       "description": "Type DISABLE if you want to disable pm protection... ",
+
       "value": "ENABLE",
+
       "required": true
+
     }
+
   },
+
   "addons": [{
+
     "plan": "heroku-postgresql",
+
     "options": {
+
       "version": "12"
+
     }
+
   }],
+
   "buildpacks": [{
+
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
   },{
+
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+
   },{
+
     "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+
   },{
+
     "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+
   },{
+
     "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+
   },{
+
     "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+
   },{
+
     "url": "heroku/python"
+
   }]
+
 }
