@@ -32,13 +32,13 @@ _setting_bot () {
     LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
     echo "Done"
-    echo "  XenoBot V-1 Cleaning.."
+    echo "  XenoBot V-1.0 Cleaning.."
     rm -rf "$zippath"
     sleep 5
     cd $XENOPATH
-    echo "    ⚜️Starting XenoBot⚜️     "
+    echo "   🔥 [ Starting XenoBo] 🔥     "
     echo "
-    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    
     "
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
