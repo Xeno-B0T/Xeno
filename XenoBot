@@ -5,10 +5,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $XENO_REPO == "XENOBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tUEkvYXJjaGl2ZS9MZWdlbmRCb3Quemlw" | base64 -d
     elif [[ $XENO_REPO == "XENOBOT" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tUEkvYXJjaGl2ZS9MZWdlbmRCb3Quemlw" | base64 -d
     elif [[ $XENO_REPO =~ $regex ]]
     then
         if [[ $XENO_REPO_BRANCH ]]
@@ -18,14 +18,14 @@ _get_repolink () {
             echo "${XENO_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tVUIvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1hlbm8tQjBUL1hlbm8tUEkvYXJjaGl2ZS9MZWdlbmRCb3Quemlw" | base64 -d
     fi
 }
 
 
 _setting_bot () {
     local zippath
-    zippath="XenoBot.zip"
+    zippath="LegendBot.zip"
     echo "  loading Xenobot V-1 Source Code..."
     wget -q $(_get_repolink) -O "$zippath"
     echo "  Unpacking Data ..."
